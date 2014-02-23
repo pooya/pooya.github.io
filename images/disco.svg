@@ -1,0 +1,240 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" width="1200" height="262" onload="init(evt)" viewBox="0 0 1200 262" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs >
+	<linearGradient id="background" y1="0" y2="1" x1="0" x2="0" >
+		<stop stop-color="#eeeeee" offset="5%" />
+		<stop stop-color="#eeeeb0" offset="95%" />
+	</linearGradient>
+</defs>
+<style type="text/css">
+	.func_g:hover { stroke:#333; stroke-width:0.3; }
+</style>
+<script type="text/ecmascript">
+<![CDATA[
+	var details;
+	function init(evt) { details = document.getElementById("details").firstChild; }
+	function s(info) { details.nodeValue = "Function: " + info; }
+	function c() { details.nodeValue = ' '; }
+]]>
+</script>
+<rect x="0.0" y="0" width="1200.0" height="262.0" fill="url(#background)"  />
+<text text-anchor="middle" x="600" y="20" font-size="15" font-family="Menlo" fill="rgb(0,0,0)"  >Flame Graph</text>
+<text text-anchor="" x="10" y="247" font-size="10" font-family="Menlo" fill="rgb(0,0,0)" id="details" > </text>
+<g class="func_g" onmouseover="s('lists:foldl/3 (1 samples, 5.88%)')" onmouseout="c()">
+<title>lists:foldl/3 (1 samples, 5.88%)</title><rect x="1051.2" y="121" width="69.4" height="15.0" fill="rgb(232,144,34)" rx="2" ry="2" />
+<text text-anchor="" x="1054.17647058824" y="131.5" font-size="10" font-family="Menlo" fill="rgb(0,0,0)"  >lists:fol..</text>
+</g>
+<g class="func_g" onmouseover="s('mochiweb_request:start_response_length/2 (1 samples, 5.88%)')" onmouseout="c()">
+<title>mochiweb_request:start_response_length/2 (1 samples, 5.88%)</title><rect x="565.3" y="137" width="69.4" height="15.0" fill="rgb(221,38,42)" rx="2" ry="2" />
+<text text-anchor="" x="568.294117647059" y="147.5" font-size="10" font-family="Menlo" fill="rgb(0,0,0)"  >mochiweb_..</text>
+</g>
+<g class="func_g" onmouseover="s('dict:on_bucket/3 (1 samples, 5.88%)')" onmouseout="c()">
+<title>dict:on_bucket/3 (1 samples, 5.88%)</title><rect x="79.4" y="89" width="69.4" height="15.0" fill="rgb(244,30,14)" rx="2" ry="2" />
+<text text-anchor="" x="82.4117647058823" y="99.5" font-size="10" font-family="Menlo" fill="rgb(0,0,0)"  >dict:on_b..</text>
+</g>
+<g class="func_g" onmouseover="s('gb_trees:insert/3 (1 samples, 5.88%)')" onmouseout="c()">
+<title>gb_trees:insert/3 (1 samples, 5.88%)</title><rect x="1051.2" y="89" width="69.4" height="15.0" fill="rgb(253,15,11)" rx="2" ry="2" />
+<text text-anchor="" x="1054.17647058824" y="99.5" font-size="10" font-family="Menlo" fill="rgb(0,0,0)"  >gb_trees:..</text>
+</g>
+<g class="func_g" onmouseover="s('io_lib_format:term/5 (2 samples, 11.76%)')" onmouseout="c()">
+<title>io_lib_format:term/5 (2 samples, 11.76%)</title><rect x="842.9" y="57" width="138.9" height="15.0" fill="rgb(230,126,45)" rx="2" ry="2" />
+<text text-anchor="" x="845.941176470588" y="67.5" font-size="10" font-family="Menlo" fill="rgb(0,0,0)"  >io_lib_format:term/5</text>
+</g>
+<g class="func_g" onmouseover="s('dict:get_slot/2 (1 samples, 5.88%)')" onmouseout="c()">
+<title>dict:get_slot/2 (1 samples, 5.88%)</title><rect x="218.2" y="89" width="69.4" height="15.0" fill="rgb(251,202,47)" rx="2" ry="2" />
+<text text-anchor="" x="221.235294117647" y="99.5" font-size="10" font-family="Menlo" fill="rgb(0,0,0)"  >dict:get_..</text>
+</g>
+<g class="func_g" onmouseover="s('dict:store/3 (1 samples, 5.88%)')" onmouseout="c()">
+<title>dict:store/3 (1 samples, 5.88%)</title><rect x="79.4" y="105" width="69.4" height="15.0" fill="rgb(205,20,7)" rx="2" ry="2" />
+<text text-anchor="" x="82.4117647058823" y="115.5" font-size="10" font-family="Menlo" fill="rgb(0,0,0)"  >dict:stor..</text>
+</g>
+<g class="func_g" onmouseover="s('web_server:dispatch/3 (17 samples, 100.00%)')" onmouseout="c()">
+<title>web_server:dispatch/3 (17 samples, 100.00%)</title><rect x="10.0" y="169" width="1180.0" height="15.0" fill="rgb(247,187,31)" rx="2" ry="2" />
+<text text-anchor="" x="13" y="179.5" font-size="10" font-family="Menlo" fill="rgb(0,0,0)"  >web_server:dispatch/3</text>
+</g>
+<g class="func_g" onmouseover="s('mochijson2:-json_encode_proplist/2-fun-0-/3 (1 samples, 5.88%)')" onmouseout="c()">
+<title>mochijson2:-json_encode_proplist/2-fun-0-/3 (1 samples, 5.88%)</title><rect x="426.5" y="57" width="69.4" height="15.0" fill="rgb(250,124,19)" rx="2" ry="2" />
+<text text-anchor="" x="429.470588235294" y="67.5" font-size="10" font-family="Menlo" fill="rgb(0,0,0)"  >mochijson..</text>
+</g>
+<g class="func_g" onmouseover="s('disco_web:op/3 (5 samples, 29.41%)')" onmouseout="c()">
+<title>disco_web:op/3 (5 samples, 29.41%)</title><rect x="10.0" y="153" width="347.1" height="15.0" fill="rgb(221,123,49)" rx="2" ry="2" />
+<text text-anchor="" x="13" y="163.5" font-size="10" font-family="Menlo" fill="rgb(0,0,0)"  >disco_web:op/3</text>
+</g>
+<g class="func_g" onmouseover="s('dict:append_list/3 (1 samples, 5.88%)')" onmouseout="c()">
+<title>dict:append_list/3 (1 samples, 5.88%)</title><rect x="218.2" y="105" width="69.4" height="15.0" fill="rgb(224,117,22)" rx="2" ry="2" />
+<text text-anchor="" x="221.235294117647" y="115.5" font-size="10" font-family="Menlo" fill="rgb(0,0,0)"  >dict:appe..</text>
+</g>
+<g class="func_g" onmouseover="s('eflame:apply/5 (17 samples, 100.00%)')" onmouseout="c()">
+<title>eflame:apply/5 (17 samples, 100.00%)</title><rect x="10.0" y="185" width="1180.0" height="15.0" fill="rgb(212,97,18)" rx="2" ry="2" />
+<text text-anchor="" x="13" y="195.5" font-size="10" font-family="Menlo" fill="rgb(0,0,0)"  >eflame:apply/5</text>
+</g>
+<g class="func_g" onmouseover="s('mochiweb_util:parse_qs/2 (1 samples, 5.88%)')" onmouseout="c()">
+<title>mochiweb_util:parse_qs/2 (1 samples, 5.88%)</title><rect x="10.0" y="121" width="69.4" height="15.0" fill="rgb(234,113,9)" rx="2" ry="2" />
+<text text-anchor="" x="13" y="131.5" font-size="10" font-family="Menlo" fill="rgb(0,0,0)"  >mochiweb_..</text>
+</g>
+<g class="func_g" onmouseover="s('io_lib_format:collect/2 (2 samples, 11.76%)')" onmouseout="c()">
+<title>io_lib_format:collect/2 (2 samples, 11.76%)</title><rect x="704.1" y="57" width="138.8" height="15.0" fill="rgb(239,120,14)" rx="2" ry="2" />
+<text text-anchor="" x="707.117647058823" y="67.5" font-size="10" font-family="Menlo" fill="rgb(0,0,0)"  >io_lib_format:collect/2</text>
+</g>
+<g class="func_g" onmouseover="s('mochiweb_request:parse_qs/1 (1 samples, 5.88%)')" onmouseout="c()">
+<title>mochiweb_request:parse_qs/1 (1 samples, 5.88%)</title><rect x="10.0" y="137" width="69.4" height="15.0" fill="rgb(209,53,25)" rx="2" ry="2" />
+<text text-anchor="" x="13" y="147.5" font-size="10" font-family="Menlo" fill="rgb(0,0,0)"  >mochiweb_..</text>
+</g>
+<g class="func_g" onmouseover="s('(0.113.0) (17 samples, 100.00%)')" onmouseout="c()">
+<title>(0.113.0) (17 samples, 100.00%)</title><rect x="10.0" y="201" width="1180.0" height="15.0" fill="rgb(237,126,2)" rx="2" ry="2" />
+<text text-anchor="" x="13" y="211.5" font-size="10" font-family="Menlo" fill="rgb(0,0,0)"  >(0.113.0)</text>
+</g>
+<g class="func_g" onmouseover="s('io_lib:format/2 (4 samples, 23.53%)')" onmouseout="c()">
+<title>io_lib:format/2 (4 samples, 23.53%)</title><rect x="704.1" y="89" width="277.7" height="15.0" fill="rgb(233,223,9)" rx="2" ry="2" />
+<text text-anchor="" x="707.117647058823" y="99.5" font-size="10" font-family="Menlo" fill="rgb(0,0,0)"  >io_lib:format/2</text>
+</g>
+<g class="func_g" onmouseover="s('mochijson2:json_encode_proplist/2 (2 samples, 11.76%)')" onmouseout="c()">
+<title>mochijson2:json_encode_proplist/2 (2 samples, 11.76%)</title><rect x="357.1" y="89" width="138.8" height="15.0" fill="rgb(218,70,14)" rx="2" ry="2" />
+<text text-anchor="" x="360.058823529412" y="99.5" font-size="10" font-family="Menlo" fill="rgb(0,0,0)"  >mochijson2:json_encod..</text>
+</g>
+<g class="func_g" onmouseover="s('mochiweb_util:parse_qs_value/2 (1 samples, 5.88%)')" onmouseout="c()">
+<title>mochiweb_util:parse_qs_value/2 (1 samples, 5.88%)</title><rect x="10.0" y="105" width="69.4" height="15.0" fill="rgb(207,35,49)" rx="2" ry="2" />
+<text text-anchor="" x="13" y="115.5" font-size="10" font-family="Menlo" fill="rgb(0,0,0)"  >mochiweb_..</text>
+</g>
+<g class="func_g" onmouseover="s('all (17 samples, 100%)')" onmouseout="c()">
+<title>all (17 samples, 100%)</title><rect x="10.0" y="217" width="1180.0" height="15.0" fill="rgb(241,185,53)" rx="2" ry="2" />
+<text text-anchor="" x="13" y="227.5" font-size="10" font-family="Menlo" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('mochiweb_request:start_response/2 (7 samples, 41.18%)')" onmouseout="c()">
+<title>mochiweb_request:start_response/2 (7 samples, 41.18%)</title><rect x="634.7" y="137" width="485.9" height="15.0" fill="rgb(240,18,42)" rx="2" ry="2" />
+<text text-anchor="" x="637.705882352941" y="147.5" font-size="10" font-family="Menlo" fill="rgb(0,0,0)"  >mochiweb_request:start_response/2</text>
+</g>
+<g class="func_g" onmouseover="s('lists:foldl/3 (2 samples, 11.76%)')" onmouseout="c()">
+<title>lists:foldl/3 (2 samples, 11.76%)</title><rect x="357.1" y="121" width="138.8" height="15.0" fill="rgb(217,94,14)" rx="2" ry="2" />
+<text text-anchor="" x="360.058823529412" y="131.5" font-size="10" font-family="Menlo" fill="rgb(0,0,0)"  >lists:foldl/3</text>
+</g>
+<g class="func_g" onmouseover="s('disco_web:getop/2 (4 samples, 23.53%)')" onmouseout="c()">
+<title>disco_web:getop/2 (4 samples, 23.53%)</title><rect x="79.4" y="137" width="277.7" height="15.0" fill="rgb(218,70,26)" rx="2" ry="2" />
+<text text-anchor="" x="82.4117647058823" y="147.5" font-size="10" font-family="Menlo" fill="rgb(0,0,0)"  >disco_web:getop/2</text>
+</g>
+<g class="func_g" onmouseover="s('mochiweb_request:respond/2 (9 samples, 52.94%)')" onmouseout="c()">
+<title>mochiweb_request:respond/2 (9 samples, 52.94%)</title><rect x="565.3" y="153" width="624.7" height="15.0" fill="rgb(226,65,18)" rx="2" ry="2" />
+<text text-anchor="" x="568.294117647059" y="163.5" font-size="10" font-family="Menlo" fill="rgb(0,0,0)"  >mochiweb_request:respond/2</text>
+</g>
+<g class="func_g" onmouseover="s('mochijson2:json_encode/2 (1 samples, 5.88%)')" onmouseout="c()">
+<title>mochijson2:json_encode/2 (1 samples, 5.88%)</title><rect x="426.5" y="41" width="69.4" height="15.0" fill="rgb(233,142,48)" rx="2" ry="2" />
+<text text-anchor="" x="429.470588235294" y="51.5" font-size="10" font-family="Menlo" fill="rgb(0,0,0)"  >mochijson..</text>
+</g>
+<g class="func_g" onmouseover="s('mochiweb_request:server_headers/0 (6 samples, 35.29%)')" onmouseout="c()">
+<title>mochiweb_request:server_headers/0 (6 samples, 35.29%)</title><rect x="634.7" y="121" width="416.5" height="15.0" fill="rgb(218,227,10)" rx="2" ry="2" />
+<text text-anchor="" x="637.705882352941" y="131.5" font-size="10" font-family="Menlo" fill="rgb(0,0,0)"  >mochiweb_request:server_headers/0</text>
+</g>
+<g class="func_g" onmouseover="s('io_lib_format:collect_cseq/2 (2 samples, 11.76%)')" onmouseout="c()">
+<title>io_lib_format:collect_cseq/2 (2 samples, 11.76%)</title><rect x="704.1" y="41" width="138.8" height="15.0" fill="rgb(211,76,54)" rx="2" ry="2" />
+<text text-anchor="" x="707.117647058823" y="51.5" font-size="10" font-family="Menlo" fill="rgb(0,0,0)"  >io_lib_format:collect..</text>
+</g>
+<g class="func_g" onmouseover="s('string:words/2 (1 samples, 5.88%)')" onmouseout="c()">
+<title>string:words/2 (1 samples, 5.88%)</title><rect x="148.8" y="73" width="69.4" height="15.0" fill="rgb(211,212,8)" rx="2" ry="2" />
+<text text-anchor="" x="151.823529411765" y="83.5" font-size="10" font-family="Menlo" fill="rgb(0,0,0)"  >string:wo..</text>
+</g>
+<g class="func_g" onmouseover="s('mochiweb_request:start_raw_response/2 (1 samples, 5.88%)')" onmouseout="c()">
+<title>mochiweb_request:start_raw_response/2 (1 samples, 5.88%)</title><rect x="1120.6" y="137" width="69.4" height="15.0" fill="rgb(214,108,36)" rx="2" ry="2" />
+<text text-anchor="" x="1123.58823529412" y="147.5" font-size="10" font-family="Menlo" fill="rgb(0,0,0)"  >mochiweb_..</text>
+</g>
+<g class="func_g" onmouseover="s('lists:foldl/3 (3 samples, 17.65%)')" onmouseout="c()">
+<title>lists:foldl/3 (3 samples, 17.65%)</title><rect x="79.4" y="121" width="208.2" height="15.0" fill="rgb(247,84,3)" rx="2" ry="2" />
+<text text-anchor="" x="82.4117647058823" y="131.5" font-size="10" font-family="Menlo" fill="rgb(0,0,0)"  >lists:foldl/3</text>
+</g>
+<g class="func_g" onmouseover="s('erlang:phash/2 (1 samples, 5.88%)')" onmouseout="c()">
+<title>erlang:phash/2 (1 samples, 5.88%)</title><rect x="218.2" y="73" width="69.4" height="15.0" fill="rgb(235,157,37)" rx="2" ry="2" />
+<text text-anchor="" x="221.235294117647" y="83.5" font-size="10" font-family="Menlo" fill="rgb(0,0,0)"  >erlang:ph..</text>
+</g>
+<g class="func_g" onmouseover="s('io_lib_format:fwrite/2 (2 samples, 11.76%)')" onmouseout="c()">
+<title>io_lib_format:fwrite/2 (2 samples, 11.76%)</title><rect x="704.1" y="73" width="138.8" height="15.0" fill="rgb(239,205,12)" rx="2" ry="2" />
+<text text-anchor="" x="707.117647058823" y="83.5" font-size="10" font-family="Menlo" fill="rgb(0,0,0)"  >io_lib_format:fwrite/2</text>
+</g>
+<g class="func_g" onmouseover="s('mochijson2:json_encode_proplist/2 (2 samples, 11.76%)')" onmouseout="c()">
+<title>mochijson2:json_encode_proplist/2 (2 samples, 11.76%)</title><rect x="357.1" y="137" width="138.8" height="15.0" fill="rgb(250,64,53)" rx="2" ry="2" />
+<text text-anchor="" x="360.058823529412" y="147.5" font-size="10" font-family="Menlo" fill="rgb(0,0,0)"  >mochijson2:json_encod..</text>
+</g>
+<g class="func_g" onmouseover="s('mochiweb_util:qs_revdecode/1 (1 samples, 5.88%)')" onmouseout="c()">
+<title>mochiweb_util:qs_revdecode/1 (1 samples, 5.88%)</title><rect x="10.0" y="89" width="69.4" height="15.0" fill="rgb(245,79,37)" rx="2" ry="2" />
+<text text-anchor="" x="13" y="99.5" font-size="10" font-family="Menlo" fill="rgb(0,0,0)"  >mochiweb_..</text>
+</g>
+<g class="func_g" onmouseover="s('disco_web:reply/2 (2 samples, 11.76%)')" onmouseout="c()">
+<title>disco_web:reply/2 (2 samples, 11.76%)</title><rect x="357.1" y="153" width="138.8" height="15.0" fill="rgb(238,128,38)" rx="2" ry="2" />
+<text text-anchor="" x="360.058823529412" y="163.5" font-size="10" font-family="Menlo" fill="rgb(0,0,0)"  >disco_web:reply/2</text>
+</g>
+<g class="func_g" onmouseover="s('lists:do_flatten/2 (1 samples, 5.88%)')" onmouseout="c()">
+<title>lists:do_flatten/2 (1 samples, 5.88%)</title><rect x="981.8" y="105" width="69.4" height="15.0" fill="rgb(232,229,13)" rx="2" ry="2" />
+<text text-anchor="" x="984.764705882353" y="115.5" font-size="10" font-family="Menlo" fill="rgb(0,0,0)"  >lists:do_..</text>
+</g>
+<g class="func_g" onmouseover="s('string:strip_right/2 (1 samples, 5.88%)')" onmouseout="c()">
+<title>string:strip_right/2 (1 samples, 5.88%)</title><rect x="148.8" y="57" width="69.4" height="15.0" fill="rgb(208,215,11)" rx="2" ry="2" />
+<text text-anchor="" x="151.823529411765" y="67.5" font-size="10" font-family="Menlo" fill="rgb(0,0,0)"  >string:st..</text>
+</g>
+<g class="func_g" onmouseover="s('string:-to_lower/1-lc$^0/1-0-/1 (1 samples, 5.88%)')" onmouseout="c()">
+<title>string:-to_lower/1-lc$^0/1-0-/1 (1 samples, 5.88%)</title><rect x="495.9" y="121" width="69.4" height="15.0" fill="rgb(216,155,30)" rx="2" ry="2" />
+<text text-anchor="" x="498.882352941176" y="131.5" font-size="10" font-family="Menlo" fill="rgb(0,0,0)"  >string:-t..</text>
+</g>
+<g class="func_g" onmouseover="s('io_lib_format:field_value/3 (1 samples, 5.88%)')" onmouseout="c()">
+<title>io_lib_format:field_value/3 (1 samples, 5.88%)</title><rect x="704.1" y="25" width="69.4" height="15.0" fill="rgb(227,23,27)" rx="2" ry="2" />
+<text text-anchor="" x="707.117647058823" y="35.5" font-size="10" font-family="Menlo" fill="rgb(0,0,0)"  >io_lib_fo..</text>
+</g>
+<g class="func_g" onmouseover="s('disco_web:-getop/2-fun-1-/2 (1 samples, 5.88%)')" onmouseout="c()">
+<title>disco_web:-getop/2-fun-1-/2 (1 samples, 5.88%)</title><rect x="148.8" y="105" width="69.4" height="15.0" fill="rgb(241,124,39)" rx="2" ry="2" />
+<text text-anchor="" x="151.823529411765" y="115.5" font-size="10" font-family="Menlo" fill="rgb(0,0,0)"  >disco_web..</text>
+</g>
+<g class="func_g" onmouseover="s('mochiweb_headers:enter/3 (1 samples, 5.88%)')" onmouseout="c()">
+<title>mochiweb_headers:enter/3 (1 samples, 5.88%)</title><rect x="495.9" y="137" width="69.4" height="15.0" fill="rgb(240,89,14)" rx="2" ry="2" />
+<text text-anchor="" x="498.882352941176" y="147.5" font-size="10" font-family="Menlo" fill="rgb(0,0,0)"  >mochiweb_..</text>
+</g>
+<g class="func_g" onmouseover="s('dict:store_bkt_val/3 (1 samples, 5.88%)')" onmouseout="c()">
+<title>dict:store_bkt_val/3 (1 samples, 5.88%)</title><rect x="79.4" y="73" width="69.4" height="15.0" fill="rgb(237,56,47)" rx="2" ry="2" />
+<text text-anchor="" x="82.4117647058823" y="83.5" font-size="10" font-family="Menlo" fill="rgb(0,0,0)"  >dict:stor..</text>
+</g>
+<g class="func_g" onmouseover="s('dict:fold_segs/4 (1 samples, 5.88%)')" onmouseout="c()">
+<title>dict:fold_segs/4 (1 samples, 5.88%)</title><rect x="287.6" y="121" width="69.5" height="15.0" fill="rgb(249,67,54)" rx="2" ry="2" />
+<text text-anchor="" x="290.647058823529" y="131.5" font-size="10" font-family="Menlo" fill="rgb(0,0,0)"  >dict:fold..</text>
+</g>
+<g class="func_g" onmouseover="s('mochiweb_request:ok/2 (1 samples, 5.88%)')" onmouseout="c()">
+<title>mochiweb_request:ok/2 (1 samples, 5.88%)</title><rect x="495.9" y="153" width="69.4" height="15.0" fill="rgb(253,100,12)" rx="2" ry="2" />
+<text text-anchor="" x="498.882352941176" y="163.5" font-size="10" font-family="Menlo" fill="rgb(0,0,0)"  >mochiweb_..</text>
+</g>
+<g class="func_g" onmouseover="s('lists:foldl/3 (2 samples, 11.76%)')" onmouseout="c()">
+<title>lists:foldl/3 (2 samples, 11.76%)</title><rect x="357.1" y="73" width="138.8" height="15.0" fill="rgb(218,23,20)" rx="2" ry="2" />
+<text text-anchor="" x="360.058823529412" y="83.5" font-size="10" font-family="Menlo" fill="rgb(0,0,0)"  >lists:foldl/3</text>
+</g>
+<g class="func_g" onmouseover="s('mochiweb_headers:enter/3 (1 samples, 5.88%)')" onmouseout="c()">
+<title>mochiweb_headers:enter/3 (1 samples, 5.88%)</title><rect x="565.3" y="121" width="69.4" height="15.0" fill="rgb(235,228,38)" rx="2" ry="2" />
+<text text-anchor="" x="568.294117647059" y="131.5" font-size="10" font-family="Menlo" fill="rgb(0,0,0)"  >mochiweb_..</text>
+</g>
+<g class="func_g" onmouseover="s('string:-to_lower/1-lc$^0/1-0-/1 (1 samples, 5.88%)')" onmouseout="c()">
+<title>string:-to_lower/1-lc$^0/1-0-/1 (1 samples, 5.88%)</title><rect x="565.3" y="105" width="69.4" height="15.0" fill="rgb(234,219,22)" rx="2" ry="2" />
+<text text-anchor="" x="568.294117647059" y="115.5" font-size="10" font-family="Menlo" fill="rgb(0,0,0)"  >string:-t..</text>
+</g>
+<g class="func_g" onmouseover="s('httpd_util:rfc1123_date/0 (5 samples, 29.41%)')" onmouseout="c()">
+<title>httpd_util:rfc1123_date/0 (5 samples, 29.41%)</title><rect x="634.7" y="105" width="347.1" height="15.0" fill="rgb(239,82,0)" rx="2" ry="2" />
+<text text-anchor="" x="637.705882352941" y="115.5" font-size="10" font-family="Menlo" fill="rgb(0,0,0)"  >httpd_util:rfc1123_date/0</text>
+</g>
+<g class="func_g" onmouseover="s('lists:foldl/3 (1 samples, 5.88%)')" onmouseout="c()">
+<title>lists:foldl/3 (1 samples, 5.88%)</title><rect x="1120.6" y="121" width="69.4" height="15.0" fill="rgb(250,176,45)" rx="2" ry="2" />
+<text text-anchor="" x="1123.58823529412" y="131.5" font-size="10" font-family="Menlo" fill="rgb(0,0,0)"  >lists:fol..</text>
+</g>
+<g class="func_g" onmouseover="s('mochijson2:-json_encode_proplist/2-fun-0-/3 (2 samples, 11.76%)')" onmouseout="c()">
+<title>mochijson2:-json_encode_proplist/2-fun-0-/3 (2 samples, 11.76%)</title><rect x="357.1" y="105" width="138.8" height="15.0" fill="rgb(213,66,25)" rx="2" ry="2" />
+<text text-anchor="" x="360.058823529412" y="115.5" font-size="10" font-family="Menlo" fill="rgb(0,0,0)"  >mochijson2:-json_enco..</text>
+</g>
+<g class="func_g" onmouseover="s('string:sub_word/3 (1 samples, 5.88%)')" onmouseout="c()">
+<title>string:sub_word/3 (1 samples, 5.88%)</title><rect x="148.8" y="89" width="69.4" height="15.0" fill="rgb(251,192,26)" rx="2" ry="2" />
+<text text-anchor="" x="151.823529411765" y="99.5" font-size="10" font-family="Menlo" fill="rgb(0,0,0)"  >string:su..</text>
+</g>
+<g class="func_g" onmouseover="s('io_lib_format:build/3 (2 samples, 11.76%)')" onmouseout="c()">
+<title>io_lib_format:build/3 (2 samples, 11.76%)</title><rect x="842.9" y="73" width="138.9" height="15.0" fill="rgb(215,106,28)" rx="2" ry="2" />
+<text text-anchor="" x="845.941176470588" y="83.5" font-size="10" font-family="Menlo" fill="rgb(0,0,0)"  >io_lib_format:build/3</text>
+</g>
+<g class="func_g" onmouseover="s('mochiweb_request:-start_raw_response/2-fun-0-/2 (1 samples, 5.88%)')" onmouseout="c()">
+<title>mochiweb_request:-start_raw_response/2-fun-0-/2 (1 samples, 5.88%)</title><rect x="1120.6" y="105" width="69.4" height="15.0" fill="rgb(242,203,17)" rx="2" ry="2" />
+<text text-anchor="" x="1123.58823529412" y="115.5" font-size="10" font-family="Menlo" fill="rgb(0,0,0)"  >mochiweb_..</text>
+</g>
+<g class="func_g" onmouseover="s('mochiweb_headers:default/3 (1 samples, 5.88%)')" onmouseout="c()">
+<title>mochiweb_headers:default/3 (1 samples, 5.88%)</title><rect x="1051.2" y="105" width="69.4" height="15.0" fill="rgb(253,103,36)" rx="2" ry="2" />
+<text text-anchor="" x="1054.17647058824" y="115.5" font-size="10" font-family="Menlo" fill="rgb(0,0,0)"  >mochiweb_..</text>
+</g>
+</svg>
