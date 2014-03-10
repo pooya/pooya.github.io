@@ -121,7 +121,7 @@ observability of the system.  I am looking forward to using dtrace for figuring
 out this problem.
 
 * [Percept][percept]
-Percept is a concurrency debuggin tool shipped with erlang.  There is another
+Percept is a concurrency debugging tool shipped with erlang.  There is another
 tool called [percept2][percept2] that we used for the debugging purposes and we
 will describe as follows.  We use the following commands for running percept2:
 
