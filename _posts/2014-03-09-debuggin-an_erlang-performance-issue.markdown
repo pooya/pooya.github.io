@@ -98,7 +98,9 @@ The following two graphs show the time spent for processing a disco http request
 * [eper][eper]
 Redbug seems to be the most widely used.  I read a [good presentation][redbug] about it. 
 In disco we can use it like this:
+{% highlight erlang %}
     redbug:start("ddfs_master:choose_write_nodes->stack")
+{% endhighlight %}
 and it prints something like:
 {% highlight erlang %}
     17:18:15 <0.8451.0>({ddfs_tag,init,1})
