@@ -60,7 +60,7 @@ Conclusion
 ==========
 Root cause analysis is a science and following the scientific best practices results in being more effective and coming up with better results. Following the concrete methods outlined in this post helps remove the element of luck from RCA and improve both the RCA procedure and the system itself over time.
 
-[hackernews]: https://news.ycombinator.com/news
+[hackernews]: https://news.ycombinator.com/item?id=12854191
 
 [gregg]: https://youtu.be/abLan0aXJkw?t=1288
 
