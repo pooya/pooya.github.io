@@ -1,3 +1,3 @@
 name: Shayan Pooya
 markdown: redcarpet
-pygments: true
+highlighter: pygments
